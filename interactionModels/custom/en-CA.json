@@ -1,0 +1,201 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "study with easy a",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "HelloWorldIntent",
+          "slots": [],
+          "samples": [
+            "hello",
+            "how are you",
+            "say hi world",
+            "say hi",
+            "hi",
+            "say hello world",
+            "say hello"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "openFileIntent",
+          "slots": [
+            {
+              "name": "fileName",
+              "type": "docName"
+            }
+          ],
+          "samples": [
+            "{fileName}",
+            "use {fileName}",
+            "test me on {fileName}",
+            "choose file {fileName}",
+            "i want to study {fileName}"
+          ]
+        },
+        {
+          "name": "yesIntent",
+          "slots": [],
+          "samples": [
+            "yea",
+            "yee",
+            "uh huh",
+            "yup",
+            "yeah",
+            "yes"
+          ]
+        },
+        {
+          "name": "continentIntent",
+          "slots": [
+            {
+              "name": "continent",
+              "type": "continents"
+            }
+          ],
+          "samples": [
+            "d {continent}",
+            "c {continent}",
+            "b {continent}",
+            "{continent}",
+            "a {continent}"
+          ]
+        },
+        {
+          "name": "TrueFalseIntent",
+          "slots": [],
+          "samples": [
+            "false",
+            "true"
+          ]
+        },
+        {
+          "name": "volcanoIntent",
+          "slots": [],
+          "samples": [
+            "volcano"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "geography",
+                "synonyms": [
+                  "geo"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "computer science",
+                "synonyms": [
+                  "com sci"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "science"
+              }
+            },
+            {
+              "name": {
+                "value": "business"
+              }
+            },
+            {
+              "name": {
+                "value": "psychology",
+                "synonyms": [
+                  "psych"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "chemistry",
+                "synonyms": [
+                  "chem"
+                ]
+              }
+            }
+          ],
+          "name": "docName"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "Africa"
+              }
+            },
+            {
+              "name": {
+                "value": "Australia"
+              }
+            },
+            {
+              "name": {
+                "value": "South America"
+              }
+            },
+            {
+              "name": {
+                "value": "North America"
+              }
+            },
+            {
+              "name": {
+                "value": "Antarctica"
+              }
+            },
+            {
+              "name": {
+                "value": "Europe"
+              }
+            },
+            {
+              "name": {
+                "value": "Asia"
+              }
+            }
+          ],
+          "name": "continents"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "volcano"
+              }
+            }
+          ],
+          "name": "volcano"
+        }
+      ]
+    }
+  },
+  "version": "17"
+}

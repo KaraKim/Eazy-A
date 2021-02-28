@@ -7,3 +7,7 @@ Currently, our team does not know a way to allow others to test the skill.
 
 We used the Alexa Developer Console to build this skill.
 https://developer.amazon.com/alexa/console/ask
+
+Check out our live demo at: https://youtu.be/QvsNPPLfpd8
+
+Check out our devpost at: https://devpost.com/software/eazy-a

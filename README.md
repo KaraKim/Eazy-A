@@ -3,4 +3,7 @@ Eazy-A combines Amazon Alexa’s voice technology with Google docs to create ver
 
 This Alexa skill has not been published to the public. 
 As shared with the Warwick Hackathon team, the code has been provided for reference.
-Currently, our team does not know a way to allow others to test the skill. 
+Currently, our team does not know a way to allow others to test the skill.
+
+We used the Alexa Developer Console to build this skill.
+https://developer.amazon.com/alexa/console/ask
